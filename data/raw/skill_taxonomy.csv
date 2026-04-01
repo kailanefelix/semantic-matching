@@ -1,0 +1,101 @@
+id,skill_name,description
+1,Gestão de Pessoas,Capacidade de liderar, desenvolver e engajar equipes, promovendo um ambiente de trabalho produtivo e saudável.
+2,Comunicação Assertiva,Habilidade de expressar ideias e feedbacks de forma clara, direta e respeitosa em diferentes contextos profissionais.
+3,Resolução de Conflitos,Capacidade de mediar e resolver divergências entre pessoas ou equipes de forma construtiva e orientada a soluções.
+4,Inteligência Emocional,Capacidade de reconhecer, compreender e gerenciar as próprias emoções e as dos outros no ambiente de trabalho.
+5,Negociação,Habilidade de conduzir negociações de forma estratégica, buscando acordos que gerem valor para todas as partes envolvidas.
+6,Pensamento Crítico,Capacidade de analisar informações de forma sistemática e imparcial para tomar decisões fundamentadas.
+7,Resolução de Problemas,Habilidade de identificar causas raiz de problemas complexos e propor soluções eficazes e viáveis.
+8,Tomada de Decisão,Capacidade de avaliar alternativas e tomar decisões consistentes mesmo em cenários de incerteza ou pressão.
+9,Adaptabilidade,Capacidade de ajustar comportamentos e abordagens diante de mudanças de contexto, prioridades ou tecnologias.
+10,Gestão do Tempo,Habilidade de organizar e priorizar tarefas de forma eficiente para cumprir entregas com qualidade e dentro dos prazos.
+11,Autogestão,Capacidade de conduzir as próprias entregas com autonomia, organizando prioridades e mantendo constância sem supervisão direta.
+12,Aprendizado Contínuo,Disposição e capacidade de adquirir novos conhecimentos e habilidades de forma autônoma e consistente ao longo da carreira.
+13,Colaboração,Capacidade de trabalhar de forma eficaz com outras pessoas, contribuindo para objetivos coletivos e respeitando diferentes perspectivas.
+14,Visão de Produto,Capacidade de entender as necessidades do usuário e do negócio para orientar decisões de produto com foco em valor e impacto.
+15,Orientação a Dados,Habilidade de basear decisões e argumentos em evidências quantitativas e qualitativas extraídas de dados.
+16,Foco no Cliente,Capacidade de compreender as necessidades do cliente e priorizar entregas que gerem valor real para ele.
+17,Pensamento Estratégico,Capacidade de conectar decisões do dia a dia com objetivos de longo prazo da organização.
+18,Gestão de Projetos,Habilidade de planejar, executar e monitorar projetos, gerenciando escopo, prazo, recursos e riscos.
+19,Metodologias Ágeis,Conhecimento e aplicação prática de frameworks ágeis como Scrum e Kanban no contexto de times de desenvolvimento.
+20,Facilitação,Capacidade de conduzir reuniões, workshops e dinâmicas de grupo de forma produtiva e inclusiva.
+21,Storytelling com Dados,Habilidade de comunicar análises e insights de dados de forma visual e narrativa para públicos técnicos e não técnicos.
+22,Apresentação e Oratória,Capacidade de estruturar e apresentar conteúdos de forma clara e engajante para diferentes audiências.
+23,Escrita Profissional,Habilidade de produzir textos claros, objetivos e bem estruturados para comunicação profissional.
+24,Mentoria,Capacidade de orientar e desenvolver outras pessoas por meio de feedback, experiência compartilhada e suporte ao crescimento.
+25,Liderança Técnica,Capacidade de guiar tecnicamente uma equipe, tomando decisões de arquitetura e promovendo boas práticas de engenharia.
+26,Gestão de Stakeholders,Habilidade de identificar, engajar e alinhar expectativas de diferentes partes interessadas em um projeto ou iniciativa.
+27,Planejamento Estratégico,Capacidade de estruturar planos de longo prazo alinhados aos objetivos organizacionais, com metas e indicadores claros.
+28,Gestão de Mudanças,Habilidade de conduzir processos de transformação organizacional minimizando resistências e maximizando adoção.
+29,Inovação,Capacidade de propor e implementar ideias novas que gerem valor para o negócio ou para os clientes.
+30,Empreendedorismo,Habilidade de identificar oportunidades, assumir riscos calculados e conduzir iniciativas com mentalidade de dono.
+31,Python,Desenvolvimento em Python incluindo organização de projetos, boas práticas de código, uso de bibliotecas científicas e de dados.
+32,SQL,Escrita de consultas SQL incluindo joins, agregações, subqueries e análise crítica de qualidade de dados em bancos relacionais.
+33,R,Uso da linguagem R para análise estatística, modelagem e visualização de dados.
+34,Java,Desenvolvimento de aplicações backend em Java, incluindo frameworks como Spring Boot.
+35,JavaScript,Desenvolvimento frontend e backend com JavaScript, incluindo frameworks modernos como React e Node.js.
+36,TypeScript,Desenvolvimento tipado com TypeScript para aplicações frontend e backend robustas.
+37,Scala,Programação em Scala com foco em processamento distribuído e aplicações de dados em larga escala.
+38,Bash e Shell Script,Escrita de scripts para automação de tarefas, manipulação de arquivos e orquestração de processos em ambientes Unix.
+39,Análise de Dados,Capacidade de explorar, limpar, transformar e interpretar conjuntos de dados para extrair insights relevantes.
+40,Machine Learning,Desenvolvimento, treinamento e avaliação de modelos de aprendizado de máquina supervisionados e não supervisionados.
+41,Deep Learning,Desenvolvimento de modelos de redes neurais profundas para tarefas como visão computacional, NLP e séries temporais.
+42,Processamento de Linguagem Natural,Aplicação de técnicas de NLP para análise, classificação e geração de texto em pipelines de dados e produtos.
+43,Large Language Models,Conhecimento prático de LLMs incluindo prompting, fine-tuning, RAG e avaliação de qualidade de outputs.
+44,Embeddings e Busca Vetorial,Uso de modelos de embedding e bancos de dados vetoriais para similaridade semântica e recuperação de informação.
+45,Engenharia de Features,Habilidade de criar e transformar variáveis para melhorar a performance de modelos de machine learning.
+46,Avaliação de Modelos,Conhecimento de métricas e metodologias para avaliar a qualidade, robustez e fairness de modelos em produção.
+47,Séries Temporais,Modelagem e análise de dados temporais para forecasting e detecção de anomalias.
+48,Visão Computacional,Desenvolvimento de soluções baseadas em análise e classificação de imagens e vídeos.
+49,Estatística Aplicada,Aplicação de conceitos estatísticos como inferência, testes de hipótese e modelagem probabilística em problemas reais.
+50,Experimentação e Testes A/B,Design e análise de experimentos controlados para validar hipóteses de produto e negócio com rigor estatístico.
+51,Engenharia de Dados,Construção e manutenção de pipelines de dados confiáveis, escaláveis e rastreáveis para consumo analítico e de modelos.
+52,ETL e ELT,Desenvolvimento de processos de extração, transformação e carga de dados entre sistemas e ambientes distintos.
+53,Orquestração de Pipelines,Uso de ferramentas como Airflow ou Prefect para orquestrar e monitorar fluxos de dados complexos.
+54,Streaming de Dados,Processamento de dados em tempo real utilizando tecnologias como Kafka, Spark Streaming ou Flink.
+55,Modelagem de Dados,Habilidade de estruturar esquemas relacionais e dimensionais para garantir consistência, performance e escalabilidade.
+56,Data Warehouse,Conhecimento em arquitetura e uso de data warehouses como BigQuery, Redshift ou Snowflake.
+57,Qualidade de Dados,Capacidade de identificar, monitorar e corrigir problemas de qualidade, consistência e completude em bases de dados.
+58,PostgreSQL,Uso avançado do PostgreSQL incluindo modelagem, queries complexas, índices e otimização de performance.
+59,MongoDB,Uso de bancos de dados NoSQL orientados a documentos para armazenamento e consulta de dados não estruturados.
+60,Redis,Uso de Redis para cache, filas e armazenamento de dados em memória em arquiteturas de alta performance.
+61,Desenvolvimento de APIs,Construção de APIs RESTful e GraphQL com foco em clareza de contrato, segurança e performance.
+62,FastAPI,Desenvolvimento de APIs em Python com FastAPI, incluindo validação de dados, autenticação e documentação automática.
+63,Docker,Containerização de aplicações com Docker para garantir reprodutibilidade e portabilidade em diferentes ambientes.
+64,Kubernetes,Orquestração de containers com Kubernetes para deploy, escalabilidade e alta disponibilidade de aplicações.
+65,CI/CD,Implementação de pipelines de integração e entrega contínua para automatizar testes, builds e deploys.
+66,AWS,Uso de serviços da Amazon Web Services para deploy, armazenamento, processamento e monitoramento de aplicações.
+67,Google Cloud Platform,Uso de serviços do GCP incluindo BigQuery, Vertex AI e Cloud Run para soluções de dados e ML.
+68,Azure,Uso de serviços da Microsoft Azure para infraestrutura, dados e machine learning em nuvem.
+69,Infrastructure as Code,Uso de ferramentas como Terraform ou CloudFormation para provisionar e gerenciar infraestrutura de forma declarativa.
+70,Monitoramento e Observabilidade,Implementação de logs, métricas e traces para garantir visibilidade sobre o comportamento de sistemas em produção.
+71,Segurança de Dados,Conhecimento de práticas e regulamentações para proteção de dados sensíveis, incluindo LGPD e criptografia.
+72,Versionamento de Código,Uso de Git e plataformas como GitHub ou GitLab com fluxos de trabalho colaborativos incluindo PRs e code review.
+73,Testes Automatizados,Escrita de testes unitários, de integração e end-to-end para garantir qualidade e confiabilidade do código.
+74,Arquitetura de Software,Capacidade de projetar sistemas escaláveis, modulares e de fácil manutenção com foco em qualidade técnica de longo prazo.
+75,Microsserviços,Design e implementação de arquiteturas baseadas em microsserviços com foco em desacoplamento e escalabilidade independente.
+76,Power BI,Criação de dashboards e relatórios interativos no Power BI para análise e comunicação de dados a diferentes públicos.
+77,Tableau,Criação de visualizações analíticas e dashboards no Tableau para suporte à tomada de decisão baseada em dados.
+78,Excel Avançado,Uso avançado do Microsoft Excel incluindo tabelas dinâmicas, fórmulas complexas, Power Query e automações com VBA.
+79,Looker,Desenvolvimento de modelos e dashboards no Looker para análise de dados em ambientes corporativos.
+80,dbt,Uso de dbt para transformação e documentação de dados dentro de pipelines analíticos modernos.
+81,Spark,Processamento distribuído de grandes volumes de dados com Apache Spark em ambientes on-premise ou cloud.
+82,Hadoop,Uso do ecossistema Hadoop para armazenamento e processamento distribuído de dados em larga escala.
+83,LangChain,Desenvolvimento de aplicações com LLMs utilizando o framework LangChain incluindo chains, agents e memory.
+84,MLflow,Rastreamento de experimentos, versionamento de modelos e gestão do ciclo de vida de ML com MLflow.
+85,Langfuse,Monitoramento e observabilidade de pipelines de LLM em produção utilizando Langfuse para rastreamento de traces e prompts.
+86,Hugging Face,Uso da plataforma e bibliotecas Hugging Face para fine-tuning, inferência e deploy de modelos de linguagem e visão.
+87,Gestão de Produto,Capacidade de definir visão, roadmap e prioridades de produto alinhando necessidades do usuário com objetivos de negócio.
+88,UX Research,Condução de pesquisas com usuários para embasar decisões de design e produto com evidências qualitativas e quantitativas.
+89,Design Thinking,Aplicação da metodologia de Design Thinking para explorar problemas complexos e gerar soluções centradas no usuário.
+90,OKRs,Conhecimento e aplicação do framework de OKRs para definição e acompanhamento de objetivos e resultados-chave.
+91,Análise Financeira,Capacidade de interpretar demonstrações financeiras, calcular indicadores e apoiar decisões com base em dados econômico-financeiros.
+92,Modelagem Financeira,Construção de modelos financeiros para projeções, valuation e análise de cenários de negócio.
+93,Gestão de Riscos,Identificação, avaliação e mitigação de riscos operacionais, financeiros e regulatórios em projetos e processos.
+94,Compliance e Regulação,Conhecimento de normas e regulamentações aplicáveis ao setor, garantindo conformidade nos processos e produtos.
+95,Recrutamento e Seleção,Habilidade de conduzir processos seletivos de forma estruturada, desde a definição do perfil até a contratação.
+96,Desenvolvimento Organizacional,Capacidade de estruturar e implementar iniciativas que promovam o crescimento e a maturidade da organização.
+97,Gestão de Desempenho,Habilidade de estruturar e conduzir ciclos de avaliação de performance com critérios claros e feedback construtivo.
+98,Treinamento e Desenvolvimento,Capacidade de identificar necessidades de aprendizado e estruturar programas de desenvolvimento para equipes.
+99,Employer Branding,Conhecimento de estratégias para fortalecer a imagem da empresa como empregadora e atrair talentos alinhados à cultura.
+100,Cultura Organizacional,Capacidade de compreender, promover e desenvolver a cultura de uma organização de forma intencional e consistente.
