@@ -8,6 +8,8 @@ Skills são registradas de formas muito diferentes dependendo da empresa, cargo 
 
 ## Abordagem
 
+![Pipeline](pipeline_dois_experimentos.svg)
+
 1. Embedar cada skill da taxonomia (nome + descrição) usando `sentence-transformers`
 2. Embedar cada skill bruta do input
 3. Calcular cosine similarity entre cada par

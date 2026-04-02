@@ -127,6 +127,24 @@ def generate_synthetic_ground_truth(taxonomy_df: pd.DataFrame) -> pd.DataFrame:
     return pd.DataFrame(rows).drop_duplicates(subset=["skill_raw"])
 
 
+def _valid_taxonomy_ids(val) -> set:
+    """Normalize a true_taxonomy_id value to a set of string IDs.
+
+    Handles integers, floats, Python lists, and CSV-serialized lists
+    (e.g. the string ``"[66, 67, 68]"`` produced by ``pd.DataFrame.to_csv``).
+    """
+    import ast
+
+    if isinstance(val, list):
+        return {str(int(v)) for v in val}
+    if isinstance(val, str):
+        stripped = val.strip()
+        if stripped.startswith("["):
+            return {str(int(v)) for v in ast.literal_eval(stripped)}
+        return {stripped}
+    return {str(int(val))}
+
+
 def evaluate(
     matcher_results: pd.DataFrame,
     ground_truth: pd.DataFrame,
@@ -160,11 +178,14 @@ def evaluate(
     matched = merged[matched_mask]
     no_match = merged[~matched_mask]
 
-    # Correct = matched AND the taxonomy_id is correct
-    correct_mask = (
-        matched["taxonomy_id"].astype(str) == matched["true_taxonomy_id"].astype(str)
-    )
-    n_correct = int(correct_mask.sum())
+    # Correct = matched AND the taxonomy_id is in the set of valid IDs
+    # (supports single int or list for multi-label ground truth)
+    # list comprehension avoids apply() returning a DataFrame with StringDtype columns
+    correct_mask = [
+        str(mid) in _valid_taxonomy_ids(tid)
+        for mid, tid in zip(matched["taxonomy_id"], matched["true_taxonomy_id"])
+    ]
+    n_correct = sum(correct_mask)
 
     precision = n_correct / len(matched) if len(matched) > 0 else 0.0
     recall = n_correct / len(merged)
