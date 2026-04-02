@@ -6,24 +6,24 @@ id,skill_raw,taxonomy_id,taxonomy_name,score,match_status
 5,machine learning,40,Machine Learning,0.8343,matched
 6,comunicação assertiva,2,Comunicação Assertiva,0.7498,matched
 7,python,31,Python,0.6519,matched
-8,PYTHON,31,Python,0.6519,matched
+8,PYTHON,,,0.2965,no_match
 9,análise de dados,39,Análise de Dados,0.8143,matched
 10,resolução de conflitos,3,Resolução de Conflitos,0.7535,matched
 11,power bi,76,Power BI,0.6513,matched
-12,PowerBI,76,Power BI,0.5535,matched
+12,PowerBI,,,0.5535,no_match
 13,espiritualidade,,,0.3171,no_match
-14,excel avançado,78,Excel Avançado,0.5523,matched
+14,excel avançado,,,0.5523,no_match
 15,scrum,,,0.3247,no_match
 16,Metodologias Ágeis,19,Metodologias Ágeis,0.6649,matched
 17,storytelling com dados,21,Storytelling com Dados,0.8534,matched
 18,pensamento crítico,6,Pensamento Crítico,0.6456,matched
 19,Critical Thinking,6,Pensamento Crítico,0.6818,matched
-20,versionamento de código,72,Versionamento de Código,0.5512,matched
+20,versionamento de código,,,0.5512,no_match
 21,Git,72,Versionamento de Código,0.6456,matched
 22,cloud computing,68,Azure,0.7663,matched
-23,AWS,66,AWS,0.4908,matched
+23,AWS,,,0.4908,no_match
 24,engenharia de dados,51,Engenharia de Dados,0.7693,matched
-25,ETL,52,ETL e ELT,0.5433,matched
+25,ETL,,,0.5433,no_match
 26,visão de produto,14,Visão de Produto,0.7403,matched
 27,Product Sense,14,Visão de Produto,0.69,matched
 28,Alinhamento com o universo,,,0.3454,no_match

@@ -84,6 +84,17 @@ python src/match.py \
 | `score` | Cosine similarity (0 a 1) |
 | `match_status` | `matched` ou `no_match` |
 
+Dois arquivos de resultado estão disponíveis em `data/output/` para comparação:
+
+| Arquivo | Threshold | Normalização | Matched | No-match |
+|---|---|---|---|---|
+| `result_v0.csv` | 0.60 | nenhuma | 21 | 9 |
+| `result_final.csv` | 0.45 | seletiva | 27 | 3 |
+
+Os 6 skills adicionalmente recuperados no modelo final: `PYTHON` (corrigido pela
+normalização), `PowerBI`, `excel avançado`, `versionamento de código`, `ETL` e `AWS`
+(scores entre 0.49–0.55, abaixo do threshold anterior mas acima do calibrado).
+
 ## Decisões técnicas
 
 Documentadas em [`DECISIONS.md`](DECISIONS.md) — inclui comparação entre
