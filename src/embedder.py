@@ -13,8 +13,36 @@ class SkillEmbedder:
         self.model_name = model_name
         self.model = SentenceTransformer(model_name)
 
+    @staticmethod
+    def normalize(text: str) -> str:
+        """Normalise a raw skill string before embedding.
+
+        Rules:
+        - Always strip leading/trailing whitespace.
+        - Lowercase only when the entire string is uppercase AND longer than
+          4 characters — this catches accidental caps like ``"PYTHON"`` or
+          ``"MACHINE LEARNING"`` while preserving short acronyms (``"AWS"``,
+          ``"ETL"``, ``"SQL"``) and mixed-case proper nouns (``"Git"``,
+          ``"PowerBI"``).
+
+        Examples::
+
+            normalize("PYTHON")           → "python"
+            normalize("MACHINE LEARNING") → "machine learning"
+            normalize("AWS")              → "AWS"   # short acronym preserved
+            normalize("ETL")              → "ETL"   # short acronym preserved
+            normalize("Git")              → "Git"   # mixed-case preserved
+            normalize("PowerBI")          → "PowerBI"
+        """
+        t = text.strip()
+        if t.isupper() and len(t) > 4:
+            return t.lower()
+        return t
+
     def embed(self, texts: list[str]) -> np.ndarray:
         """Encode a list of texts into L2-normalised embeddings.
+
+        Applies :meth:`normalize` to each text before encoding.
 
         Args:
             texts: Raw strings to embed.
@@ -22,8 +50,9 @@ class SkillEmbedder:
         Returns:
             Float32 matrix of shape (len(texts), embedding_dim).
         """
+        normalized = [self.normalize(t) for t in texts]
         return self.model.encode(
-            texts,
+            normalized,
             show_progress_bar=True,
             convert_to_numpy=True,
             normalize_embeddings=True,
